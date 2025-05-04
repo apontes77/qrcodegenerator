@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: qrcodegenerator
+aws:
+  s3:
+    region: ${AWS_REGION}
+    bucket-name: ${AWS_BUCKET_NAME}
